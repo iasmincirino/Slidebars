@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #efcbf5;
+}
+
+/* Navbar */
+
+.navbar{
+    background: #131313;
+    padding: 1rem 8rem;
+    z-index: 1000;
+}
+
+.navbar .navbar-brand{
+    font-size: 1.4rem;
+}
+
+#navbarSupportedContent > ul > li:nth-child(n) > a {
+    color: #fff;
+    font-size: 1.1rem;
+    padding: 0 0.8rem;
+}
+
+#navbarSupportedContent > ul > li:nth-child(n) > a:hover{
+    color: #BA68C8;
+}
+
+#navbarSupportedContent > a{
+    background: #ba68c8ec;
+    color: #fff;
+    padding: 0.5rem 1.6rem;
+    border-radius: 20px;
+    text-decoration: none;
+}
+
+#navbarSupportedContent > a:hover{
+    background: #BA68C8;
+}
+
+
+/* Centro */
+
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    flex-wrap: wrap;
+ }
+ 
+.img01 {
+    display: flex;
+    justify-content: center;
+    width: 40vw;
+ }
+ 
+h2{
+    font-size: 1.5vw;
+    color: black;
+}
+
+/* Abas: Sobre e projeto */
+
+.titulo a{
+    color: black;
+    padding: 0.6rem 4rem;
+    border-radius: 20px;
+    font-size: 4vw;
+}
+
+.titulo a:hover{
+    background: #ba68c8ec;
+    color: #fff;
+}
+
+@media screen and (max-width: 988px) {
+    .navbar{
+        padding: 1rem;
+    }
+
+    #navbarSupportedContent > ul{
+        padding-left: 0.8rem;
+    }
+
+    #navbarSupportedContent > ul > li:nth-child(n) > a {
+        padding: 0.8rem 0;
+    }
+
+    .img01{
+        width: 100%;
+        margin: auto;
+    }
+}
